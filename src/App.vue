@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from '@/components/HelloWorld.vue'
 
 import MenuLinks from '@/assets/menuLinks.json'
 </script>
@@ -33,10 +32,6 @@ a,
 }
 
 @media (hover: hover) {
-  /* a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
-  } */
-
   nav a:hover {
     background-color: rgba(var(--orange-rgb), 0.2);
   }
